@@ -1,11 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import reportWebVitals from './reportWebVitals';
 import 'semantic-ui-css/semantic.min.css';
+import ReactDOM from 'react-dom';
+import React from 'react';
 import axios from 'axios';
+import App from './App';
+import './index.css';
 // import cartReducer from "./components/reducers/cartReducer"
 
 let apiUrl;
