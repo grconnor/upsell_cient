@@ -8,3 +8,32 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+#error-message-specific-product {
+
+}
+
+#specific-product-container {
+  text-align: center;
+  background: linear-gradient(to bottom, #ffffff 0%, #647880 100%);
+}
+
+#specific-product-text {
+  
+}
+
+#specific-product-name {
+
+}
+
+#specific-product-description {
+  
+}
+
+#specific-product-price {
+  
+}
+
+#project-card-price {
+  
+}

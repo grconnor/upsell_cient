@@ -14,3 +14,5 @@ const authenticate = async (email, password) => {
     return { authenticated: false, message: error.response.data.errors[0] };
   }
 }
+
+export default { authenticate }
