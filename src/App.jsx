@@ -6,6 +6,7 @@ import { persistLogin } from "./modules/auth";
 
 import Navbar from "./components/Navbar";
 import LoginForm from "./components/LoginForm";
+import SignUpForm from "./components/SignUpForm";
 import ProductsList from "./components/ProductsList";
 import SpecificProduct from "./components/SpecificProduct";
 
@@ -23,7 +24,7 @@ const App = () => {
         <Route exact path="/" component={ProductsList} />
         <Route exact path="/products/:id" component={SpecificProduct} />
         <Route exact path="/login" component={LoginForm} />
-
+        <Route exact path="/signup" component={SignUpForm} />
       </Switch>
     </>
   );

@@ -94,7 +94,7 @@ const Navbar = () => {
                   name="sign-up"
                   active={activeItem === "sign-up"}
                   as={Link}
-                  to={{ pathname: "/sign_up" }}
+                  to={{ pathname: "/signup" }}
                 >
                   Sign Up
                 </Button>
