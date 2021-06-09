@@ -1,6 +1,8 @@
 import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import 'semantic-ui-css/semantic.min.css';
+import { Provider } from "react-redux";
+import configStore from "./redux/store/configStore";
 import ReactDOM from 'react-dom';
 import React from 'react';
 import axios from 'axios';
@@ -16,10 +18,16 @@ if (process.env.NODE_ENV === "production") {
 }
 axios.defaults.baseURL = apiUrl;
 
+const store = configStore();
+
+window.store = store;
+
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+  <Provider store={store}>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </Provider>,
   document.getElementById('root')
 );
 

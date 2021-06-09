@@ -1,14 +1,21 @@
+@font-face {
+  font-family: "Eina01-Regular";
+  src: local("Eina01-Regular"), url("./fonts/Eina01-Regular/Eina01-Regular.ttf") format('truetype');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; */
 }
 
+
+/* Product Cards */
 #error-message-specific-product {
 
 }
@@ -34,6 +41,51 @@ code {
   
 }
 
-#project-card-price {
+#product-card-price {
   
+}
+
+/* Navigation Bar */
+
+#navbar-intle,
+#navbar-upsell {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #e6ecff;
+  font-family: "Eina01-Regular";
+}
+#navbar-intle {
+  background-color: #00134d;
+  padding-left: 1em;
+}
+
+#navbar-upsell {
+  background-color: #141f41;
+}
+
+#navbar-slogan {
+  margin-top: 1em;
+  color: #e6ecff;
+  padding-right: 100px;
+  font-family: "Eina01-Regular";
+}
+
+/* Navbar Menu */
+
+#navbar-menu-home,
+#navbar-menu-cart,
+#navbar-menu-contact {
+  color: white;
+  background-color: #092169;
+}
+
+#navbar-menu {
+  font-family: "Eina01-Regular";
+  background-color: #092169;
+  color: white;
+}
+
+#navbar-grid {
+  background-color: #2042a7;
+  font-family: "Eina01-Regular";
 }
