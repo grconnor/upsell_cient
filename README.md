@@ -1,8 +1,8 @@
 ## To do:
 
 - Commented out code in products module.
-- Color of NavBar
-- 
+- Color of NavBar.
+- Signup now link not refreshing.
 
 # Getting Started with Create React App
 

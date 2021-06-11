@@ -27,7 +27,7 @@ const ProductsList = () => {
       <Grid.Row columns={3}>
         {products.map((product) => {
           return (
-            <div key={product.id}>
+            <div className="card-style" key={product.id}>
               <ProductsCard product={product} />
             </div>
           );

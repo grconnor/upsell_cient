@@ -22,11 +22,15 @@ code {
 
 #specific-product-container {
   text-align: center;
-  background: linear-gradient(to bottom, #ffffff 0%, #647880 100%);
+  width: 50vw;
+  height: 60vh;
+  background: linear-gradient(to top, #ffffff 0%, #092069 100%);
+  padding-top: 5px;
 }
 
 #specific-product-text {
-  
+  padding-top: 40px;
+  font-family: "Eina01-Regular";
 }
 
 #specific-product-name {
@@ -88,4 +92,18 @@ code {
 #navbar-grid {
   background-color: #2042a7;
   font-family: "Eina01-Regular";
+}
+
+.card-style {
+  margin: 1%;
+}
+
+#container {
+  padding-top: 3em;
+  width: 57%;
+  margin: auto;
+}
+
+#product-card {
+  padding-top: 50px;
 }

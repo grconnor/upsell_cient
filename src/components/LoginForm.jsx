@@ -85,7 +85,7 @@ const LoginForm = () => {
 
       <Container>
         <BrowserRouter>
-          <Link to="/register" id="login-register">
+          <Link to={{ pathname: "/signup" }} id="login-register">
             Don't have an account yet? Sign up now.
           </Link>
         </BrowserRouter>
