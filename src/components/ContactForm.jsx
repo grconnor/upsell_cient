@@ -20,8 +20,8 @@ const ContactForm = () => {
       body: JSON.stringify(details),
     });
     setStatus("Submit");
-    let result = await response.json();
-    alert(result.status);
+    let response = await response.json();
+    alert(response.status);
   };
   return (
     <Container>

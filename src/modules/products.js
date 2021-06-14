@@ -2,14 +2,14 @@ import axios from "axios";
 
 const Products = {
   async index() {
-    let result = await axios.get("/products");
-    return result.data.products;
+    let response = await axios.get("/products");
+    return response.data.products;
   },
 
   async show(productId) {
     try {
-      let result = await axios.get(`/products/${productId}`);
-      return result.data.product;
+      const response = await axios.get(`/products/${productId}`);
+      return response.data.product;
     } catch (error) {
       return error.response.data.error;
     }
